@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7;
+}
+
+a{
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+
+#navbar{
+    background-color: #333;
+    color: #fff;
+    overflow: auto;
+}
+
+h1{
+
+    float: left;
+    padding: 15px 10px;
+}
+ 
+#navbar ul{
+    float: right;
+    list-style:none;
+}
+#navbar ul li{
+    float: left;
+    text-align: center;
+
+}
+
+#navbar ul li a  {
+    display: block;
+    padding: 21.5px ;
+    text-align: center;
+    
+}
+
+
+#navbar ul li a:hover, 
+#navbar ul li a.current{
+    color: rgb(80, 196, 99);
+    background-color: rgb(14, 94, 100);
+}
+
+.py-3{
+    padding: 30px;
+}
+
+.container {
+    margin: auto;
+    max-width: 950px;
+    overflow: auto;
+    padding: 0 40px;
+}
+
+/*devlopemment*/
+.text-primary{
+    color: #f7c08a;
+}
+
+#showcase{
+    background:url('../image_resources/showcasemine.jpg') no-repeat 
+    center center/cover;
+    height: 600px ;
+}
+
+.showcase-content{
+    color:#fff;
+    text-align: center;
+    padding-top: 170px;
+}
+
+.lead{
+    font-size: 20px;
+    padding-bottom:1.2em;
+}
+
+#showcase .showcase-content p{
+    padding-bottom:1.3em;
+    line-height: 1.7em;
+}
+
+.showcase-content h2{
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+.btn{
+    display: inline-block;
+    color: rgb(150, 221, 194);
+    font-size: 18px;
+    background: #333;
+    padding: 6px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-light{
+    color: black;
+    background: #fff;
+}
+
+.btn:hover{
+    color: #333;
+    background: #f7c08a;
+}
+
+#homeinfo{
+    height: 400px;
+}
+
+.infoimg{
+    float: left;
+    width: 50%;
+    background: url('../image_resources/photo-1.jpg') no-repeat;
+    min-height: 100%;
+}
+
+.infocontent{
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align:center ;
+    padding: 50px 30px ;
+    overflow:hidden;
+}
+
+.bg-dark{
+    background: #333;
+    color: #fff;
+}
+#homeinfo .infocontent p{
+    padding-bottom: 30px;
+}
+
+#section{
+    background: rgb(110, 77, 77s);
+    width: 100%;
+}
+
+.BOX{
+    float: left;
+    text-align: center;
+    width: 33.3%;
+    padding: 50px;
+}
+
+.bg-primary{
+    color: #333;
+    background: #f7c08a;
+}
+
+.clr{
+    clear: both;
+}
+
+.BOX i{
+    margin-bottom: 10px;
+}
+
+footer p {
+    color: #fff;
+    background: #444;
+    text-align: center;
+    padding: 10px;
+}
+/*about page*/
+
+.container-about{
+    margin: 0px 10px;
+    max-width: auto;
+    overflow: auto;
+    padding: 20px 70px; 
+}
+
+
+
+.info-left{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+.info-right{
+    float: right;
+    width: 45%;
+    min-height: 100%;
+}
+
+.l-heading{
+    font-size: 40px;
+    color: #f7c08a;
+}
+
+.info-right img{
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 50%;
+}
+
+/*testimonials*/
+#testimonials{
+    padding: 100px 70px;
+    background: url(./image_resources/test-bg.jpg) no-repeat center center/cover;
+    padding-top: 40px;
+}
+
+#testimonials .testimonial{
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+
+#testimonials .testimonial img{
+    display: block;
+    margin-right: 20px;
+    margin-top: -10px;
+    float: left;
+    width: 100px;
+    border-radius: 50%;
+    
+}
+
+#testimonials h2{
+    color: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 40px;
+}
+
+
+/*contact*/
+
+.container-contact{
+    margin: 0;
+    max-width: auto;
+    overflow: auto;
+    padding: 20px 50px; 
+}
+
+#contact-form .form-group{
+    margin-bottom: 20px;
+}
+
+#contact-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input, 
+#contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+
+#contact-form textarea{
+    height: 200px;
+}
+
+#contact-form input:focus, 
+#contact-form textarea:focus{
+    outline:none;
+    border-color: #f7c08a;
+}
